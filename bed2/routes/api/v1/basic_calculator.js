@@ -5,5 +5,7 @@ const router= express.Router()
 
 router.get('/', controller.index)
 router.post('/addition', controller.addition)
-
+router.post('/minus', controller.addition)
+router.post('/multiply', controller.addition)
+router.post('/resultado', controller.addition)
 export default router
